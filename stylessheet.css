@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+}
+.navigation {
+    background-color: #bfbab0;
+    padding: 3px;
+    text-align: center;
+}
+.logo {
+    display: inline;
+    text-align: start;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 5%;
+    height: 5%;
+    border-radius: 15px;
+}
+.nav {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-align: left;
+    margin: auto 0px;
+    padding: 0;
+    display: inline;
+    text-align: left;
+}
+li {
+    display: inline;
+    margin-right: 15px;
+
+}
+a {
+    color: #1d1a17;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover {
+    color: #1d1a17;
+    text-decoration: none;
+}
+a:active {
+    color: #1d1a17;
+    text-decoration: none;
+}
+a:visited {
+    color: #1d1a17;
+    text-decoration: none;
+}
+body {
+    background-color: #3d3730;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+    background: url('mountain.jpg') center/cover no-repeat;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+.moutain {
+    width: 100%;
+    height: 360px;
+    background: url('mountain.jpg') center/cover no-repeat;
+}
+.quote {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 22px;
+    grid-column: 4;
+    grid-row: 4;
+}
+/*
